@@ -2,15 +2,13 @@ Package: basic
 Type: Package
 Title: Basic R Package
 Version: 0.1.0
-Authors@R: "Colin Gillespie <colin@jumpingrivers.com> [aut, cre]"
+Authors@R:
+    person("Colin", "Gillespie", , "colin@jumpingrivers.com", role = c("aut", "cre"))
 Description: Doesn't really do anything. Just used for testing.
 BugReports: https://github.com/litmusverse/basic-package
 Depends:
     R (>= 3.0)
 License: MIT
 LazyData: true
-Imports:
-    testthat,
-    utils
 Encoding: UTF-8
 RoxygenNote: 7.3.2
